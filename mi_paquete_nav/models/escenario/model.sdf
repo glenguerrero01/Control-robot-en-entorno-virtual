@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="escenario">
+    <static>true</static>
+    <link name="escenario_link">
+      <visual name="escenario_visual">
+        <geometry>
+          <mesh>
+            <uri>model://escenario/meshes/escenario.stl</uri>
+            <scale>0.001 0.001 0.001</scale> <!-- pon 1 1 1 si ya está en metros -->
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.7 0.7 0.7 1</ambient>
+          <diffuse>0.7 0.7 0.7 1</diffuse>
+        </material>
+      </visual>
+      <collision name="escenario_collision">
+        <geometry>
+          <mesh>
+            <uri>model://escenario/meshes/escenario.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
