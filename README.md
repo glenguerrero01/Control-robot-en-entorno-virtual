@@ -6,7 +6,7 @@ Navegación autónoma de un **TurtleBot3 con LiDAR** en simulación, usando **RO
 
 <img width="400" src="https://github.com/user-attachments/assets/5b5ad8e7-6178-4b67-8ebe-1dbbdca94490" />
 
-##Video funcionamiento
+## Video funcionamiento
 https://youtu.be/GMJ8F4e_gUA
 
 ## Descripción
